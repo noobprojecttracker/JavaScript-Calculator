@@ -62,8 +62,14 @@ function printZero(){
 
 function printDecimal(){
     var currently = document.getElementById("output").innerHTML;
-    currently += '.'
-    document.getElementById("output").innerHTML = currently;
+    var lengthOfCurrently = currently.length;
+    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+' || currently[lengthOfCurrently-1]==='.'){
+        var x = 1;
+    }
+    else{
+        currently += '-'
+        document.getElementById("output").innerHTML = currently;
+    }
 }
 
 function clearScreen(){
@@ -75,7 +81,7 @@ function clearScreen(){
 function printAdd(){
     var currently = document.getElementById("output").innerHTML;
     var lengthOfCurrently = currently.length;
-    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+'){
+    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+' || currently[lengthOfCurrently-1]==='.'){
         var x = 1;
     }
     else{
@@ -88,7 +94,7 @@ function printAdd(){
 function printSub(){
     var currently = document.getElementById("output").innerHTML;
     var lengthOfCurrently = currently.length;
-    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+'){
+    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+' || currently[lengthOfCurrently-1]==='.'){
         var x = 1;
     }
     else{
@@ -100,7 +106,7 @@ function printSub(){
 function printMult(){
     var currently = document.getElementById("output").innerHTML;
     var lengthOfCurrently = currently.length;
-    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+'){
+    if (currently[lengthOfCurrently-1]==='*' || currently[lengthOfCurrently-1]==='-' || currently[lengthOfCurrently-1]==='+' || currently[lengthOfCurrently-1]==='.'){
         var x = 1;
     }
     else{
