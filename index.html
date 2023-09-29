@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Own Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <div class="screen">
+        <div 
+        id="output" class="theScreen">
+        </div>
+        <button onclick="solve()" class="equals">=</button>
+                    <!--New-->
+                    <button id="item-zero" onclick="printZero()" class="calcButtons">0</button>
+                    <button id="item-decimal" onclick="printDecimal()" class="calcButtons">.</button>
+                    <button id="item-clear" onclick="clearScreen()" class="calcButtons">A/C</button>
+    </div>
+
+    <div class="container">
+
+
+
+        
+            <button id="item-1" onclick="printOne()" class="calcButtons">1</button>
+        
+
+        
+            <button id="item-2" onclick="printTwo()" class="calcButtons">2</button>
+        
+
+        
+            <button id="item-3" onclick="printThree()" class="calcButtons">3</button>
+        
+        
+        
+            <button id="item-add" onclick="printAdd()" class="calcButtons">+</button>
+        
+
+        
+            <button id="item-4" onclick="printFour()" class="calcButtons">4</button>
+
+
+        
+            <button id="item-5" onclick="printFive()" class="calcButtons">5</button>
+       
+
+        
+            <button id="item-6" onclick="printSix()" class="calcButtons">6</button>
+        
+
+        
+            <button id="item-sub" onclick="printSub()" class="calcButtons">-</button>
+        
+
+        
+            <button id="item-7" onclick="printSeven()" class="calcButtons">7</button>
+        
+
+        
+            <button id="item-8" onclick="printEight()" class="calcButtons">8</button>
+        
+
+        
+            <button id="item-9" onclick="printNine()" class="calcButtons">9</button>
+        
+
+        
+            <button id="item-mult" onclick="printMult()" class="calcButtons">X</button>
+        
+        
+
+
+    </div>
+    
+</body>
+</html>
