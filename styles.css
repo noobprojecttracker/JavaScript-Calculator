@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    text-align: center;
+    translate: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 0px;
+
+}
+.screen{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+    text-align: center;
+    translate: 50%;
+    line-height: 50px;
+    margin-top: 100px;
+}
+.theScreen{
+    grid-row: 1/1;
+    grid-column: 1/5;
+    font-size: xx-large;
+    border: 1px solid white;
+    background-image: linear-gradient(rgb(155, 223, 255), rgb(104, 192, 255));
+    text-align: right;
+    padding: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 2px;
+}
+.calcButtons{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.equals{
+    grid-row: 2/2;
+    grid-column: 4/5;
+    font-size: 40px;
+    border: 1px solid white;
+    background-color: rgb(128, 238, 255);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+}
+#item-1{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+}
+#item-2{
+    grid-row: 1/1;
+    grid-column: 2/2;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-3{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-4{
+    grid-row: 2/2;
+    grid-column: 1/2;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-7{
+    grid-row: 3/3;
+    grid-column: 3/0;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-8{
+    grid-row: 3/3;
+    grid-column: 2/3;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-9{
+    grid-row: 3/3;
+    grid-column: 3/4;
+    background-image: linear-gradient(rgb(82, 241, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-add{
+    grid-row: 1/1;
+    grid-column: 4/4;
+    background-image: linear-gradient(rgb(0, 94, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-sub{
+    grid-row: 2/2;
+    grid-column: 4/4;
+    background-image: linear-gradient(rgb(0, 94, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+
+}
+#item-mult{
+    grid-row: 3/3;
+    grid-column: 4/4;
+    background-image: linear-gradient(rgb(0, 94, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+}
+#item-zero{
+    grid-row: 2/2;
+    grid-column: 3/3;
+    background-image: linear-gradient(rgb(0, 94, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+}
+#item-decimal{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    background-image: linear-gradient(rgb(0, 94, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+}
+#item-clear{
+    grid-row: 2/2;
+    grid-column: 1/1;
+    background-image: linear-gradient(rgb(0, 94, 255), rgb(162, 255, 253));
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 2px;
+    background: transparent;
+}
+body{
+    background-image: linear-gradient(rgb(0, 166, 255), white);
+}
